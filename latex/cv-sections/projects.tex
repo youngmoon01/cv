@@ -13,15 +13,22 @@
 %------------------------------------------------
 
 \cventry
-{A personal project to develop an AI program which plays the game Starcraft: Broodwar} % Brief explanation
-{TeraZerg} % Project name
-{Personal Project} % Location
-{Jan. 2017 - Present} % Date(s)
+{A web service which evaluates submitted code automatically} % Brief explanation
+{Code Evaluation System} % Project name
+{Korea Military Academy} % Location
+{Jan. 2016 - Jun. 2018} % Date(s)
 { % Description(s)
 \begin{cvitems}
-\item {Based on the BWMirror, a java implementation of BWAPI (Brood War API)}
-\item {Environment analysis through graph representation.}
-\item {A* path-finding algorithm implemented to the AI}
+\item {The system manages database of courses, students, assignments and submissions
+via PostgreSQL. It automatically \newline compiles submitted code and compares output
+of the code to correct output, and gives scores. Supported languages are Python 2/3, Java.}
+\item {The web service is served with Django and Nginx on RHEL. Back-end processing is mostly implemented in Python.
+Techniques used in front-end side include Javascript, JQuery, CSS, LESS, Ajax etc.
+The whole stacks(front-end/back-end) are implemented from scratch.}
+\item {Using this system, students could get feedbacks right after the submissions in real time.
+And professors could save a lot of time to evaluate and grade all the submissions.}
+\item {The system is maintained successfully for two semesters in two courses(Java, Python).}
+\item {Github link: https://github.com/youngmoon01/CES}
 \end{cvitems}
 }
 
@@ -45,25 +52,6 @@
 %------------------------------------------------
 
 \cventry
-{A web implementation which evaluates submitted code automatically} % Brief explanation
-{Code Evaluation System} % Project name
-{Korea Military Academy} % Location
-{Jan. 2016 - Mar. 2017} % Date(s)
-{ % Description(s)
-\begin{cvitems}
-\item {The system manages information of courses, students, assignments and submissions
-with PostgreSQL database. It automatically \newline compiles submitted code and compares output
-of the code to correct output, and gives scores. Supported languages are Python 2/3, Java.}
-\item {The web service is served with Django and nginx on RHEL. Back-end processing is mostly implemented in Python.
-The service is implemented from scratch.}
-\item {Using this system, students could easily test their programming assignments in real time
-and get feedback for their submissions. And professors could save time to evaluate and grade all the submissions.}
-\end{cvitems}
-}
-
-%------------------------------------------------
-
-\cventry
 {A research project to suggests IPv6 adoption model to military network of Korea} % Brief explanation
 {IPv6 Adoption Model in Military Network of ROK} % Project name
 {Korea Military Academy} % Location
@@ -81,17 +69,18 @@ area and industrial area.}
 {A prototype of MapReduce framework like Hadoop, Spark, etc} % Brief explanation
 {EclipseMR, a MapReduce framework employing semantic caches} % Project name
 {UNIST} % Location
-{Jan. 2014 - Jun. 2015} % Date(s)
+{Jan. 2014 - Present} % Date(s)
 { % Description(s)
 \begin{cvitems}
 \item {A MapReduce framework which works on two layers of storage, distributed in-memory
-caches and DHT file systemk.}
+caches and DHT file system.}
 \item {Locality-aware fair job scheduling policy is implemented as a task scheduler.}
 \item {Could get better performance than Apache Hadoop, Apache Spark from some usual
-MapReduce applications such as word count, PageRank, k-means clustering etc.}
+MapReduce applications such as Wordcount, PageRank, k-means clustering etc.}
 \item {The program is mainly written in C++ from scratch. Technical challenges such as socket
-programming, multi-process programming, \newline Inter-Process Communication were involved
+programming, multi-process/multi-task programming, Inter-Process Communication were involved
 in this project.}
+\item {Github link: https://github.com/DICL/Eclipse}
 \end{cvitems}
 }
 
